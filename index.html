@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Happy birthday</title>
+</head>
+<style>
+
+body{
+        
+        background-image:linear-gradient(to bottom,green,blue,red,purple)
+}
+      img{
+              border:2px dashed pink;
+              border-radius: 5px;
+              height: 200px;
+              
+      }  
+       .mess{
+        transform:translate(-78px, -89px);
+             color:pink;
+             background-color:dimgray;
+             width:200px;
+              border-radius:3px; 
+              animation-name: ang;
+              animation-duration: 5s;
+              animation-play-state: running;
+              animation-iteration-count: infinite;
+       } 
+   
+   @keyframes ang{
+         20%{transform: translate(25px, -64px) rotate(34deg)}
+         
+        25%{transform: translate(65px,-42px) rotate(360deg)}
+   }
+        
+        .mess1{
+                color:blue;
+                transform: translate(-54px,0px);
+                animation-name:mess1;
+                animation-duration:6s;
+                    animation-iteration-count: infinite;
+        }
+        @keyframes mess1{
+              25%{transform: translate(75px,0px)}  
+                
+        }
+        
+        .mess2{
+                color:yellow;
+
+                transform: translate(-54px,0px);
+                animation-delay:200ms;
+                animation-name:mess2;
+                animation-duration:6s;
+                    animation-iteration-count: infinite;
+        }
+        
+        @keyframes mess2{
+              25%{transform: translate(90px,0px)}  
+                
+        }
+        
+        
+        .mess3{
+                color:green;
+
+                transform: translate(-54px,0px);
+                animation-delay:300ms;
+                animation-name:mess3;
+                animation-duration:6s;
+                    animation-iteration-count: infinite;
+        }
+        
+        @keyframes mess3{
+              25%{transform: translate(120px,0px)}  
+               } 
+        
+        .mess4{
+                color:pink;
+
+                transform: translate(-54px,0px);
+                animation-delay:400ms;
+                animation-name:mess4;
+                animation-duration:6s;
+                    animation-iteration-count: infinite;
+        }
+        
+        @keyframes mess4{
+              25%{transform: translate(150px,0px)}  
+                
+        }
+        
+        
+        
+        .mess5{
+                color:orange;
+
+                transform: translate(-54px,0px);
+                animation-delay:500ms;
+                animation-name:mess5;
+                animation-duration:6s;
+                animation-iteration-count: infinite;
+        }
+        
+        @keyframes mess5{
+              25%{transform: translate(180px,0px)}  
+        }
+        
+</style>
+
+
+
+<body>
+<audio src="happy.mp3" controls></audio>
+        
+       <div><img src="angela.jpg" alt=""></div> 
+        
+        <div class=mess>HAPPY BIRTHDAY TO YOU. 
+        </div>
+        
+        
+        <div class="mess1">YOU</div>
+         <div class="mess2">LOOK</div>
+         <div class="mess3">LIKE</div>
+         <div class="mess4">AN</div>
+         <div class="mess5">ANGEL</div>
+
+
+
+</body>
+
+</html>
